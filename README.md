@@ -24,3 +24,7 @@ To invoke from a DM, type `isbn ##########`
 ## Screenshots
 
 <img src="https://i.imgur.com/f2Aco0o.png">
+
+## Sources
+
+Thanks to [Slackbot for Python](https://github.com/lins05/slackbot/issues) and [Google Books "API"](https://github.com/hoffmann/googlebooks)
