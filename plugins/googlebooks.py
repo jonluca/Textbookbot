@@ -15,7 +15,7 @@ class Api(object):
             params = {}
         resp = requests.get(self.__BASEURL+path, params=params)
         if resp.status_code == 200:
-            return json.loads(resp.content)
+            return json.loads(resp.content.decode('utf8'))
 
         return resp
 
