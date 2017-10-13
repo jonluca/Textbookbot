@@ -12,6 +12,7 @@ Python 3 required.
 
 Create a file titles `slackbot_settings.py` that is modeled after slackbot_settings_sample.py. Make sure that, for "errors_to" you have at least one message sent to the bot from that account 
 
+Run the bot using `python run.py`
 ## Usage
 
 The bot listens to channels it's been added to and to direct messages.
