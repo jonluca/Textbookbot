@@ -14,7 +14,7 @@ class Api(object):
         if params is None:
             params = {}
         resp = requests.get(self.__BASEURL+path, params=params)
-        if resp.status_code == 200:
+        if resp.status_code == 200 and resp.content is not None:
             return json.loads(resp.content.decode('utf8'))
 
         return resp
